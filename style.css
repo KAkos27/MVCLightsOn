@@ -1,0 +1,27 @@
+main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.jatekter {
+  border: 1px solid black;
+  border-radius: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  padding: 1rem;
+}
+
+.lampa {
+  background-color: rgb(173, 173, 173);
+  border: 1px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.eg {
+  background-color: yellow;
+}
