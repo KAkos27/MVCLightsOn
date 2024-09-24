@@ -16,4 +16,13 @@ export default class Jatekter {
       new Lampa(this.#szuloElem, index, this.#LISTA[index]);
     }
   }
+
+  gyozelemKiiras = (vanNyertes) => {
+    if (vanNyertes) {
+      setTimeout(() => {
+        alert("Győzelem");
+      }, 1);
+      location.reload();
+    }
+  };
 }
