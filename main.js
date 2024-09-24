@@ -1,3 +1,3 @@
-import Jatekter from "./view/Jatekter.js";
+import Controller from "./controller/Controller.js";
 
-new Jatekter($(".jatekter"), ["", "", "", "", "", "", "", "", ""]);
+new Controller()
